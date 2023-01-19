@@ -34,6 +34,7 @@ class Application:
         print(self.alldata_doc)
 
     # creating the frames in the window
+
         self.main = Frame(window, width=550, height=400, bg="lightgreen")
 
         self.showdetailsframe = Frame(self.window)
@@ -43,6 +44,7 @@ class Application:
     def mainpage(self):
 
         # labels for the window
+
         self.heading = Label(self.main, text="Hospital Management System", font=('Centaur 20 bold') ,fg='black',bg="grey",relief=SUNKEN)
         self.heading.place(x=50, y=20)
 
@@ -54,6 +56,7 @@ class Application:
     def startpage(self):
 
         # labels for the window
+        
         self.heading = Label(self.main, text="Hospital Management System", font=('Centaur 20 bold') ,fg='black',bg="grey",relief=SUNKEN)
         self.heading.place(x=60, y=20)
 
